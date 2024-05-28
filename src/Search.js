@@ -6,7 +6,7 @@ function Search(props){
         /*
         Requisição API
         */
-        const url = `https://api.openweathermap.org/data/2.5/weather?q=${currentValue}&APPID=169938affde983d8c36a0aaaabdd57cb`; //API requisition
+        const url = `https://api.openweathermap.org/data/2.5/weather?q=${currentValue}&APPID=${process.env.REACT_APP_API_KEY}`; //API requisition
         fetch(url).then(response => response.json()).then(data => {
             const { main, name, sys, weather } = data;
             if (sys != undefined) //if the input is a registered city

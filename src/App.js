@@ -1,10 +1,10 @@
 import './App.css';
 import Search from './Search';
 
-function App() {
+function App(){
   return (
     <div className="App">
-      <Search placeholder="Type here the City"/>
+      <Search placeholder="🌎 Type here the City 🌎"/>
     </div>
   );
 }

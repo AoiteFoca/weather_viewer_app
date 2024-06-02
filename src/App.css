@@ -16,7 +16,28 @@
   padding-left: 10px;
 }
 
+.search input[type=submit]{
+  width: 80%;
+  height: 40px;
+  cursor: pointer;
+  margin: 10px 0;
+  background-color: rgb(120 121 195);
+  color: white;
+  border: 0;
+  font-weight: bold;
+}
+
 .search h2{
   color: white;
   padding: 20px;
+}
+
+.containerCity{
+  text-align: center;
+}
+
+.containerCity p{
+  border-bottom: 1px dashed #ccc;
+  padding: 10px 0;
+  font-weight: bold;
 }
